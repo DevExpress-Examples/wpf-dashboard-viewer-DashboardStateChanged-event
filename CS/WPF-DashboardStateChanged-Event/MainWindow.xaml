@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dxdash="http://schemas.devexpress.com/winfx/2008/xaml/dashboard" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="WPF_DashboardStateChanged_Event.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="15*"/>
+        </Grid.ColumnDefinitions>
+        <dxdash:DashboardControl Grid.Column="0"  x:Name="dashboardControl1" 
+                                 DashboardSource="../../Dashboards/dashboard1.xml" 
+                                 DashboardStateChanged="DashboardControl_DashboardStateChanged" BorderThickness="3" />
+        <dxe:TextEdit Grid.Column="1" x:Name="TextEdit" VerticalContentAlignment="Top" />
+
+    </Grid>
+</Window>
