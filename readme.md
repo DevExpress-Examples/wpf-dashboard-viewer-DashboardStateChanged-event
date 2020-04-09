@@ -6,7 +6,7 @@
 
 This example demonstrates how to manage a dashboard state to display user selections.
 
-The [DevExpress.DashboardWpf.DashboardControl.DashboardStateChanged](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.DashboardStateChanged?v=20.1) handles each time the dashboard state is changed and obtains a dashboard's state object. The information about [MasterFilter](https://docs.devexpress.com/Dashboard/400011/designer-and-viewer-applications/wpf-viewer/manage-interactivity-capabilities?v=20.1), [DrillDown](https://docs.devexpress.com/Dashboard/400011/designer-and-viewer-applications/wpf-viewer/manage-interactivity-capabilities?v=20.1) and [RangeFilter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.RangeFilterState?v=20.1) values displays in the text editor if they are changed.
+The [DevExpress.DashboardWpf.DashboardControl.DashboardStateChanged](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWpf.DashboardControl.DashboardStateChanged?v=20.1) is handled each time the dashboard state is changed and obtains a dashboard's state. The information about [MasterFilter](https://docs.devexpress.com/Dashboard/400011/designer-and-viewer-applications/wpf-viewer/manage-interactivity-capabilities?v=20.1), [DrillDown](https://docs.devexpress.com/Dashboard/400011/designer-and-viewer-applications/wpf-viewer/manage-interactivity-capabilities?v=20.1) and [RangeFilter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.RangeFilterState?v=20.1) values displays in the text editor if these values are changed.
 
 
 The following API is used in this example:
