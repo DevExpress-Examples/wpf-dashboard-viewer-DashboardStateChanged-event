@@ -2,7 +2,7 @@
 
 * [MainWindow.xaml.cs](./CS/WPF-DashboardStateChanged-Event/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WPF-DashboardStateChanged-Event/MainWindow.xaml.vb))
 
-# How to use the DashboardStateChanged event to display user interactions.
+# How to Use the DashboardStateChanged Event to Display User Interactions.
 
 This example demonstrates how to use the **DashboardStateChanged** event to display user interactions.
 
