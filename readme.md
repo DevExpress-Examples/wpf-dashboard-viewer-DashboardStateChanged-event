@@ -14,3 +14,22 @@ The following API is used in this example:
 * [DashboardItemState.RangeFilterState](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardItemState.RangeFilterState?v=20.1)
 * [DashboardItemState.MasterFilterValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardItemState.MasterFilterValues?v=20.1)
 * [DashboardItemState.DrillDownValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardItemState.DrillDownValues?v=20.1)
+
+
+## See Also
+**WinForms Dashboard Designer:**
+- [How to Set the Initial Dashboard State](https://github.com/DevExpress-Examples/winforms-designer-save-and-apply-dashboard-state)
+
+- [How to Clear Filter Values in a Dashboard State](https://github.com/DevExpress-Examples/How-to-Clear-Filter-Values-in-a-Dashboard-State-)
+
+**WinForms Dashboard Viewer:**
+- [How to Use the DashboardStateChanged Event to Manage the Dashboard State](https://github.com/DevExpress-Examples/WinForms-Dashboard-Viewer-DashboardStateChanged-Event)
+
+- [How to Save and Restore the Dashboard State](https://github.com/DevExpress-Examples/winforms-dashboard-save-restore-dashboard-state)
+
+- [How to Set the Initial Dashboard State](https://github.com/DevExpress-Examples/winforms-viewer-save-and-apply-dashboard-state)
+
+**WPF Dashboard:**
+
+- [How to Set the Initial Dashboard State](https://github.com/DevExpress-Examples/wpf-dashboard-how-to-set-initial-dashboard-state)
+
