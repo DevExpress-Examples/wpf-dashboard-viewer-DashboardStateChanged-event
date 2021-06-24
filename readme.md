@@ -16,7 +16,8 @@ The following API is used in this example:
 * [DashboardItemState.DrillDownValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardItemState.DrillDownValues?v=20.1)
 
 
-## See Also
+## More Examples
+
 **WinForms Dashboard Designer:**
 - [How to Set the Initial Dashboard State](https://github.com/DevExpress-Examples/winforms-designer-save-and-apply-dashboard-state)
 
