@@ -1,10 +1,9 @@
-Imports DevExpress.DataAccess
 Imports DevExpress.DashboardCommon
 
 Namespace WPF_DashboardStateChanged_Event
 
     Public Partial Class Dashboard1
-        Inherits DevExpress.DashboardCommon.Dashboard
+        Inherits Dashboard
 
         Public Sub New()
             InitializeComponent()

@@ -13,14 +13,14 @@ Namespace WPF_DashboardStateChanged_Event
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
 
         Private Sub DashboardControl_DashboardStateChanged(ByVal sender As Object, ByVal e As DashboardStateChangedWpfEventArgs)
             Dim newState = e.DashboardState
             Dim message = String.Empty
             For Each itemState As DashboardItemState In newState.Items
-                Dim item = dashboardControl1.Dashboard.Items(itemState.ItemName)
+                Dim item = Me.dashboardControl1.Dashboard.Items(itemState.ItemName)
                 message += item.Name
                 If itemState.DrillDownValues.Count <> 0 Then
                     message += Microsoft.VisualBasic.Constants.vbLf & "Filter Drill-Down:" & " " & String.Join(",", itemState.DrillDownValues)
@@ -38,7 +38,7 @@ Namespace WPF_DashboardStateChanged_Event
                 message += Microsoft.VisualBasic.Constants.vbLf
             Next
 
-            TextEdit.Text = message
+            Me.TextEdit.Text = message
         End Sub
     End Class
 End Namespace
