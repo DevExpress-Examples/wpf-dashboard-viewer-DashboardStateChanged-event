@@ -17,7 +17,7 @@ The following API is used in this example:
 * [DashboardItemState.DrillDownValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardItemState.DrillDownValues?v=20.1)
 
 <!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [MainWindow.xaml.cs](./CS/WPF-DashboardStateChanged-Event/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WPF-DashboardStateChanged-Event/MainWindow.xaml.vb))
 <!-- default file list end -->
